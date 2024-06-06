@@ -38,7 +38,7 @@ const Home = () => {
                             unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </h3>
 
-                        <div className="row card-container" style={{ display: 'flex', margin: '50px auto' }}>
+                        <div className="row card-container" style={{ display: 'flex', margin: '50px auto', flexWrap: 'wrap'  }}>
                             <div className="card" id="card1">
                                 <div className="original-content">
                                     <img src={invernoImage} alt="Imagem 1" />
